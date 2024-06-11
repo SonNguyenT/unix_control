@@ -1,4 +1,6 @@
-cd "/home/data/"
-echo "I'm here!"
-echo "New line."
-echo "Done"
+#
+cmd : cd "/home/users/snguyen/test"
+cmd : echo "I'm here!"
+cmd : echo "New line."
+cmd : echo "Done"
+cmd : touch "here"
