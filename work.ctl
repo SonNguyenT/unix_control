@@ -3,6 +3,7 @@ cd : /home/users/snguyen/test
 echo : I'm here!
 echo : New line.
 echo : Done
-touch : haha
+rm : haha
+rm : here
 cd : /home/users/snguyen/control
 
