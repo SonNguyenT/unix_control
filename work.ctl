@@ -1,6 +1,7 @@
 #
-cmd : cd "/home/users/snguyen/test"
-cmd : echo "I'm here!"
-cmd : echo "New line."
-cmd : echo "Done"
-cmd : touch "here"
+cd : "/home/users/snguyen/test"
+echo : "I'm here!"
+echo : "New line."
+echo : "Done"
+touch : "here"
+
