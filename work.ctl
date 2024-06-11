@@ -1,5 +1,5 @@
 #
-cd : "/home/users/snguyen/test"
+cd : /home/users/snguyen/test
 echo : "I'm here!"
 echo : "New line."
 echo : "Done"
