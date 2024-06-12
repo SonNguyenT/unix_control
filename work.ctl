@@ -6,8 +6,6 @@ echo : Done
 #ls : /home/users/snguyen/test > list2
 cd : /home/users/snguyen/control
 rm : /home/users/snguyen/test/list2
-rm : /home/users/snguyen/test/list1
-rm : /home/users/snguyen/test/list
 #uploadgit : /home/users/snguyen/test/list2
 cd : /home/users/snguyen/control
 runcsh: /simdir2/snguyen/28TI/testmode/temp/run_spectre/COX_IP/TT_1.10_3.00_25_1.225.run
