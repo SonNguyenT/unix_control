@@ -1,4 +1,5 @@
 #
+tdelay : 5
 cd : /home/users/snguyen/test
 echo : I'm here!
 echo : New line.
