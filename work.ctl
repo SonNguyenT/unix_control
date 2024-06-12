@@ -4,6 +4,7 @@ echo : I'm here!
 echo : New line.
 echo : Done
 ls : /home/users/snguyen/test > list
+cd : /home/users/snguyen/control
 uploadgit : /home/users/snguyen/test/list
 cd : /home/users/snguyen/control
 
