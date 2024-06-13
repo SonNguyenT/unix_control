@@ -1,5 +1,5 @@
 #
-tdelay : 10
+tdelay : 20
 cd : /home/users/snguyen/test
 #Test 1: 
 ls : /home/users/snguyen/test/tube > tubelist
