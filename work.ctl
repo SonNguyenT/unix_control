@@ -9,7 +9,7 @@
 #    Example: "findpath : $PWD /home/users/snguyen/test/tube/ > content.list" --> List the content of dir "tube" to content.list file
 #    with full path. Easy to control.
 #########################
-tdelay : 20
+tdelay : 600
 cd : /home/users/snguyen/test
 
 #### Example modify a file in local:
