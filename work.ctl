@@ -9,8 +9,11 @@ cd : /home/users/snguyen/test
 #uploadgit : /home/users/snguyen/test/tubelist
 
 echo : Debug tube...
-ls: /home/users/snguyen/test/tube/PROG2_FT_VSL/output > prog
-uploadgit : prog
+#ls: /home/users/snguyen/test/tube/PROG2_FT_VSL/output > prog
+#uploadgit : prog
+ls : /home/users/snguyen/test/tube/PROG2_FT_VSL/output/TT_1.10_3.0_25_1.225_00000 > output
+uploadgit : output
+
 
 cd : /home/users/snguyen/control
 #rm : /home/users/snguyen/test/list2
