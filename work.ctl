@@ -5,7 +5,7 @@ cd : /home/users/snguyen/test
 #ls : /home/users/snguyen/test/tube > tubelist
 #uploadgit : /home/users/snguyen/test/tubelist
 #rm : /home/users/snguyen/control/unix_control/tubelist
-findpath : $PWD /home/users/snguyen/test/tubelist > tubelist
+findpath : $PWD /home/users/snguyen/test/tubelist/ > tubelist
 uploadgit : /home/users/snguyen/test/tubelist
 echo : I'm here!
 echo : New line.
