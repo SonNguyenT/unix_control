@@ -16,12 +16,11 @@ cd : /home/users/snguyen/test
 # send sed -i:
 #findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
 #uploadgit : /home/users/snguyen/test/tubelist
-sedi : 's/limit ++ 3/limit ++ 2/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
-# 1. Load file to git repo.
+#sedi : 's/limit ++ 3/limit ++ 2/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
 
-# 2. Modify the content on git repo. Wait more than tdelay time for the local update
-
-# 3. Control Copy 
+#Run python script:
+cd : /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/
+python : /home/users/snguyen/Desktop/skill/python/Submitjob.py
 
 #Test 1: 
 #ls : /home/users/snguyen/test/tube > tubelist
