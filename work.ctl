@@ -16,7 +16,7 @@ cd : /home/users/snguyen/test
 # send sed -i:
 findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
 uploadgit : /home/users/snguyen/test/tubelist
-sed : -i s"limit ++ 4/limit ++ 3/g" /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
+sed : -i s'limit ++ 4/limit ++ 3/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
 # 1. Load file to git repo.
 
 # 2. Modify the content on git repo. Wait more than tdelay time for the local update
