@@ -9,7 +9,9 @@ findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
 uploadgit : /home/users/snguyen/test/tubelist
 echo : I'm here!
 
-ls : /home/users/snguyen/test > list2
+ls: /home/users/snguyen/test/tube/PROG2_FT_VSL/output > prog
+uploadgit : /home/users/snguyen/test/prog
+
 cd : /home/users/snguyen/control
 #rm : /home/users/snguyen/test/list2
 uploadgit : /home/users/snguyen/test/list2
