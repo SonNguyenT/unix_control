@@ -14,8 +14,8 @@ cd : /home/users/snguyen/test
 
 #### Example modify a file in local:
 # send sed -i:
-findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
-uploadgit : /home/users/snguyen/test/tubelist
+#findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
+#uploadgit : /home/users/snguyen/test/tubelist
 sed : -i s'limit ++ 4/limit ++ 3/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
 # 1. Load file to git repo.
 
