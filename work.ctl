@@ -8,8 +8,7 @@ cd : /home/users/snguyen/test
 findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
 uploadgit : /home/users/snguyen/test/tubelist
 echo : I'm here!
-echo : New line.
-echo : Done
+
 ls : /home/users/snguyen/test > list2
 cd : /home/users/snguyen/control
 #rm : /home/users/snguyen/test/list2
