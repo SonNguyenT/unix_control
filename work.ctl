@@ -16,12 +16,14 @@ cd : /home/users/snguyen/test
 # send sed -i:
 #findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
 #uploadgit : /home/users/snguyen/test/tubelist
-sedi : 's/limit ++ 5/limit ++ 6/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
-sedi : 's/sleep ++ 60/sleep ++ 300/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
+#sedi : 's/limit ++ 5/limit ++ 6/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
+#sedi : 's/sleep ++ 60/sleep ++ 300/g' /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/job.cfg
 
 #Run python script:
 #cd : /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/
 #python : /home/users/snguyen/Desktop/skill/python/Submitjob.py
+findpath : $PWD /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/output/ > PROG_FT_VCG_REFACC
+uploadgit : /home/users/snguyen/test/PROG_FT_VCG_REFACC
 
 #Test 1: 
 #ls : /home/users/snguyen/test/tube > tubelist
