@@ -11,8 +11,8 @@ cd : /home/users/snguyen/test
 echo : Debug tube...
 #ls: /home/users/snguyen/test/tube/PROG2_FT_VSL/output > prog
 #uploadgit : prog
-ls : /home/users/snguyen/test/tube/PROG2_FT_VSL/output/TT_1.10_3.0_25_1.225_00000 > output
-uploadgit : output
+ls : /home/users/snguyen/test/tube/PROG2_FT_VSL/output/TT_1.10_3.0_25_1.225_00000 > dirout
+uploadgit : dirout
 
 
 cd : /home/users/snguyen/control
