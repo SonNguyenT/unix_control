@@ -22,9 +22,11 @@ cd : /home/users/snguyen/test
 #Run python script:
 #cd : /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/
 #python : /home/users/snguyen/Desktop/skill/python/Submitjob.py
-findpath : $PWD /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/output/ > PROG_FT_VCG_REFACC
-uploadgit : /home/users/snguyen/test/PROG_FT_VCG_REFACC
+#findpath : $PWD /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/output/ > PROG_FT_VCG_REFACC
+#uploadgit : /home/users/snguyen/test/PROG_FT_VCG_REFACC
 #uploadgit : /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/output/TT_1.10_3.0_25_1.225_011110/TT_1.10_3.0_25_1.225_011110.measure
+findpath : $PWD /home/users/snguyen/test/tube/PROG2_FT_VSL/output/ > PROG2_FT_VSL
+uploadgit : /home/users/snguyen/test/PROG2_FT_VSL
 
 #Test 1: 
 #ls : /home/users/snguyen/test/tube > tubelist
