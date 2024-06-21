@@ -14,7 +14,9 @@ cd : /home/users/snguyen/test
 
 #Run bashshell:
 cd : /home/users/snguyen/test/genvec
-runbash : 1_gen.sh
+#runbash : 1_gen.sh
+cd : /home/users/snguyen/test/tmsim/src
+uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
 cd : /home/users/snguyen/test/
 
 #### Example modify a file in local:
