@@ -18,7 +18,7 @@ cd : /home/users/snguyen/test/genvec
 #runbash : 1_gen.sh
 #cd : /home/users/snguyen/test/tmsim/src
 #uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
-#cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode
+cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
 cd : /home/users/snguyen/test/
 
 #### Example modify a file in local:
