@@ -8,6 +8,7 @@
 # + findpath: like "ls" but will list the content with full path
 #    Example: "findpath : $PWD /home/users/snguyen/test/tube/ > content.list" --> List the content of dir "tube" to content.list file
 #    with full path. Easy to control.
+#    Home: /home/users/snguyen/control/unix_control
 #########################
 tdelay : 20
 cd : /home/users/snguyen/test
@@ -15,8 +16,9 @@ cd : /home/users/snguyen/test
 #Run bashshell:
 cd : /home/users/snguyen/test/genvec
 #runbash : 1_gen.sh
-cd : /home/users/snguyen/test/tmsim/src
-uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
+#cd : /home/users/snguyen/test/tmsim/src
+#uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
+#cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode
 cd : /home/users/snguyen/test/
 
 #### Example modify a file in local:
