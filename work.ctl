@@ -12,6 +12,11 @@
 tdelay : 20
 cd : /home/users/snguyen/test
 
+#Run bashshell:
+cd : /home/users/snguyen/test/genvec
+runbash : 1_gen.sh
+cd : /home/users/snguyen/test/
+
 #### Example modify a file in local:
 # send sed -i:
 #findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
