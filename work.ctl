@@ -9,7 +9,7 @@
 #    Example: "findpath : $PWD /home/users/snguyen/test/tube/ > content.list" --> List the content of dir "tube" to content.list file
 #    with full path. Easy to control.
 #########################
-tdelay : 600
+tdelay : 20
 cd : /home/users/snguyen/test
 
 #### Example modify a file in local:
@@ -27,7 +27,7 @@ cd : /home/users/snguyen/test
 #uploadgit : /home/users/snguyen/test/tube/PROG_FT_VCG_REFACC/output/TT_1.10_3.0_25_1.225_011110/TT_1.10_3.0_25_1.225_011110.measure
 #findpath : $PWD /home/users/snguyen/test/tube/PROG2_FT_VSL/output/ > PROG2_FT_VSL
 #uploadgit : /home/users/snguyen/test/PROG2_FT_VSL
-uploadgit : /home/users/snguyen/test/tube/PROG2_FT_VSL/output/TT_1.10_3.0_25_1.225_11111/TT_1.10_3.0_25_1.225_11111.measure
+#uploadgit : /home/users/snguyen/test/tube/PROG2_FT_VSL/output/TT_1.10_3.0_25_1.225_11111/TT_1.10_3.0_25_1.225_11111.measure
 
 #Test 1: 
 #ls : /home/users/snguyen/test/tube > tubelist
