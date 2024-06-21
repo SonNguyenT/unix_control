@@ -10,7 +10,7 @@
 #    with full path. Easy to control.
 #    Home: /home/users/snguyen/control/unix_control
 #########################
-tdelay : 60
+tdelay : 300
 cd : /home/users/snguyen/test
 
 #Run bashshell:
@@ -19,7 +19,7 @@ cd : /home/users/snguyen/test/genvec
 cd : /home/users/snguyen/test/tmsim/src
 #uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
 #cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
-runcsharg : gen.csh++pvt.lst_testmode
+#runcsharg : gen.csh++pvt.lst_testmode
 cd : /home/users/snguyen/test/
 
 #### Example modify a file in local:
