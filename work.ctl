@@ -29,7 +29,10 @@ cd : /home/users/snguyen/test/
 #findpath : $PWD /home/users/snguyen/test/tmsim/data/genvec/ > genvecdir
 #uploadgit : /home/users/snguyen/test/genvecdir
 #uploadgit : /home/users/snguyen/test/tmsim/data/genvec/vector.list
-cp : /home/users/snguyen/control/unix_control/vector.list++/home/users/snguyen/test/tmsim/data/genvec/
+#cp : /home/users/snguyen/control/unix_control/vector.list++/home/users/snguyen/test/tmsim/data/genvec/
+cd : /home/users/snguyen/test/genvec
+runbash : 1_gen.sh
+
 #### Example modify a file in local:
 # send sed -i:
 #findpath : $PWD /home/users/snguyen/test/tube/ > tubelist
