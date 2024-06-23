@@ -26,8 +26,9 @@ cd : /home/users/snguyen/test/
 #cp : /home/users/snguyen/control/unix_control/SSTIP_csim_PROG_PROG.v++/home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/
 #findpath : $PWD /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/ > tcvec
 #uploadgit : /home/users/snguyen/test/tcvec
-findpath : $PWD /home/users/snguyen/test/tmsim/data/genvec/ > genvecdir
-uploadgit : /home/users/snguyen/test/genvecdir
+#findpath : $PWD /home/users/snguyen/test/tmsim/data/genvec/ > genvecdir
+#uploadgit : /home/users/snguyen/test/genvecdir
+uploadgit : /home/users/snguyen/test/tmsim/data/genvec/vector.list
 
 #### Example modify a file in local:
 # send sed -i:
