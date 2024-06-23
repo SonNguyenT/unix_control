@@ -46,7 +46,7 @@ cd : /home/users/snguyen/test
 #uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
 cd : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/
 #runcsh: TT_1.10_3.00_25_1.225.run
-
+uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.log
 
 #### Example modify a file in local:
 # send sed -i:
