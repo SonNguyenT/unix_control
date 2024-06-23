@@ -21,8 +21,8 @@ cd : /home/users/snguyen/test/tmsim/src
 #cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
 #runcsharg : gen.csh++pvt.lst_testmode
 cd : /home/users/snguyen/test/
-findpath : $PWD /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/ > tcvec
-uploadgit : /home/users/snguyen/test/tcvec
+#findpath : $PWD /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/ > tcvec
+uploadgit : /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/SSTIP_csim_READ_PROG.v
 
 #### Example modify a file in local:
 # send sed -i:
