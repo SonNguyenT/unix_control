@@ -10,7 +10,7 @@
 #    with full path. Easy to control.
 #    Home: /home/users/snguyen/control/unix_control
 #########################
-tdelay : 300
+tdelay : 60
 cd : /home/users/snguyen/test
 
 #Run bashshell:
@@ -21,6 +21,8 @@ cd : /home/users/snguyen/test/tmsim/src
 #cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
 #runcsharg : gen.csh++pvt.lst_testmode
 cd : /home/users/snguyen/test/
+findpath : $PWD /home/users/snguyen/test/home/users/snguyen/test/tmsim/run_spectre/ > listdir
+uploadgit : /home/users/snguyen/test/listdir
 
 #### Example modify a file in local:
 # send sed -i:
