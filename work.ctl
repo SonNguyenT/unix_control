@@ -33,8 +33,9 @@ cd : /home/users/snguyen/test/
 #cp : /home/users/snguyen/control/unix_control/vector.list++/home/users/snguyen/test/tmsim/data/genvec/
 #cd : /home/users/snguyen/test/genvec
 #runbash : 1_gen.sh
-findpath : $PWD /home/users/snguyen/test/tmsim/data/ > tmsim_datadir
-uploadgit : /home/users/snguyen/test/tmsim_datadir
+#findpath : $PWD /home/users/snguyen/test/tmsim/data/ > tmsim_datadir
+uploadgit : /home/users/snguyen/test/tmsim/data/vec/SSTIP_csim_PROG_PROG_TC.vec
+
 
 
 #### Example modify a file in local:
