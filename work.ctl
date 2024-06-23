@@ -43,7 +43,10 @@ cd : /home/users/snguyen/test
 #findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre > runspectre
 #uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
 #cp : /home/users/snguyen/control/unix_control/TT_1.10_3.00_25_1.225.sp++/home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/
-uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
+#uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
+cd : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/
+runcsh: TT_1.10_3.00_25_1.225.run
+
 
 #### Example modify a file in local:
 # send sed -i:
