@@ -34,9 +34,9 @@ cd : /home/users/snguyen/test/
 #cd : /home/users/snguyen/test/genvec
 #runbash : 1_gen.sh
 #findpath : $PWD /home/users/snguyen/test/tmsim/data/ > tmsim_datadir
-uploadgit : /home/users/snguyen/test/tmsim/data/vec/SSTIP_csim_PROG_PROG_TC.vec
-
-
+#uploadgit : /home/users/snguyen/test/tmsim/data/vec/SSTIP_csim_PROG_PROG_TC.vec
+cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
+uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
 
 #### Example modify a file in local:
 # send sed -i:
