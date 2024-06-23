@@ -151,6 +151,7 @@
 /home/users/snguyen/test/listdir
 /home/users/snguyen/test/READ_SERS_TC_out
 /home/users/snguyen/test/tcvec
+/home/users/snguyen/test/gitrepo_file
 /home/users/snguyen/test
 /home/users/snguyen/test/Desktop
 /home/users/snguyen/test/Desktop/.gconf
@@ -304,6 +305,7 @@
 /home/users/snguyen/test/listdir
 /home/users/snguyen/test/READ_SERS_TC_out
 /home/users/snguyen/test/tcvec
+/home/users/snguyen/test/gitrepo_file
 /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/
 /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/SSTIP_norl_READ_DEBUG.v
 /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/SSTIP_csim_MEO_00.v
@@ -315,3 +317,4 @@
 /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/SSTIP_csim_MEAS_EG.v
 /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/.SSTIP_csim_READ_PROG.v.swp
 /home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/.SSTIP_csim_MEO_00.v.swp
+/home/users/snguyen/test/tmsim/data/genvec/data/vector/tcvg/SSTIP_csim_PROG_PROG.v
