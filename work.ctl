@@ -35,8 +35,13 @@ cd : /home/users/snguyen/test/
 #runbash : 1_gen.sh
 #findpath : $PWD /home/users/snguyen/test/tmsim/data/ > tmsim_datadir
 #uploadgit : /home/users/snguyen/test/tmsim/data/vec/SSTIP_csim_PROG_PROG_TC.vec
-cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
-uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
+#cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
+#uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
+cd : /home/users/snguyen/test/tmsim/src
+runcsharg : gen.csh++pvt.lst_testmode
+cd : /home/users/snguyen/test
+findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre > runspectre
+uploadgit : /home/users/snguyen/test/runspectre
 
 #### Example modify a file in local:
 # send sed -i:
