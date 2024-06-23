@@ -9,7 +9,7 @@ simulator lang = spectre
 **********************************************
 include "/iplicense/cad/technology/esf3-28tid/opus61/latest/models/spectre/latest/sstlib.00.scs" section=TT
 include "../../data/sti/cm_spectre.inc"
-include "../../data/ckt/netlist_tc.inc"
+include "../../data/ckt/netlist_tc_2ip.inc"
 **********************************************
 TT_1p10_3p00_25 tran step=0.1n stop=118000n start=0
 **********************************************
@@ -19,8 +19,8 @@ simulator lang = spice
 .lib ../../data/ckt/cell2t_state.lib 25C
 .vec ../../data/vec/SSTIP_csim_PROG_PROG_TC.vec
 
-.lib ../../data/vec/wave.lib PROG_PROG_TC
-.inc ../../data/sti/cm_probe_tc.inc
+*.lib ../../data/vec/wave.lib PROG_PROG_TC
+.inc ../../data/sti/cm_probe_tc_2ip.inc
 **********************************************
 .temp 25
 .param pvdd  = 1.10
