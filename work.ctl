@@ -42,7 +42,7 @@ cd : /home/users/snguyen/test/
 cd : /home/users/snguyen/test
 #findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre > runspectre
 #uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
-cp : /home/users/snguyen/control/unix_control/TT_1.10_3.00_25_1.225.sp++/home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/
+#cp : /home/users/snguyen/control/unix_control/TT_1.10_3.00_25_1.225.sp++/home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/
 uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
 
 #### Example modify a file in local:
