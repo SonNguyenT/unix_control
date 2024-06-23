@@ -37,11 +37,11 @@ cd : /home/users/snguyen/test/
 #uploadgit : /home/users/snguyen/test/tmsim/data/vec/SSTIP_csim_PROG_PROG_TC.vec
 #cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
 #uploadgit : /home/users/snguyen/test/tmsim/src/pvt.lst_testmode
-cd : /home/users/snguyen/test/tmsim/src
-runcsharg : gen.csh++pvt.lst_testmode
+#cd : /home/users/snguyen/test/tmsim/src
+#runcsharg : gen.csh++pvt.lst_testmode
 cd : /home/users/snguyen/test
-findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre > runspectre
-uploadgit : /home/users/snguyen/test/runspectre
+#findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre > runspectre
+uploadgit : /home/users/snguyen/test/tmsim/run_spectre/PROG_PROG_TC/TT_1.10_3.00_25_1.225.sp
 
 #### Example modify a file in local:
 # send sed -i:
