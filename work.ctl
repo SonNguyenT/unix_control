@@ -21,8 +21,8 @@ cd : /home/users/snguyen/test/tmsim/src
 #cp : /home/users/snguyen/control/unix_control/pvt.lst_testmode++/home/users/snguyen/test/tmsim/src/
 #runcsharg : gen.csh++pvt.lst_testmode
 cd : /home/users/snguyen/test/
-findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre/READ_SERS_TC/output/ > READ_SERS_TC_out
-uploadgit : /home/users/snguyen/test/READ_SERS_TC_out
+#findpath : $PWD /home/users/snguyen/test/tmsim/run_spectre/READ_SERS_TC/output/ > READ_SERS_TC_out
+uploadgit : /home/users/snguyen/test/tmsim/run_spectre/READ_SERS_TC/output/TT_1.10_3.00_25_1.225.log
 
 #### Example modify a file in local:
 # send sed -i:
