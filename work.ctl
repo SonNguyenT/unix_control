@@ -13,6 +13,11 @@
 tdelay : 20
 cd : /home/users/snguyen/test
 
+# vnc:
+vnc_list : job
+
+
+
 #Run bashshell:
 cd : /home/users/snguyen/test/genvec
 #runbash : 1_gen.sh
