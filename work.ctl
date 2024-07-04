@@ -10,7 +10,7 @@
 #    with full path. Easy to control.
 #    Home: /home/users/snguyen/control/unix_control
 #########################
-tdelay : 20
+tdelay : 300
 cd : /home/users/snguyen/test
 
 # vnc:
