@@ -10,7 +10,7 @@
 #    with full path. Easy to control.
 #    Home: /home/users/snguyen/control/unix_control
 #########################
-tdelay : 300
+tdelay : 20
 cd : /home/users/snguyen/test
 
 #Run bashshell:
