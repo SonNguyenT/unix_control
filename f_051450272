@@ -1,0 +1,20 @@
+NC Queue        vnc
+Id,User,Group   051450272,snguyen.vneng1,/time/users.snguyen
+Environment     SNAPSHOT(/home/data/rtda/vnc_logs/snguyen/snapshots/snguyen/linux64/env18044.env)
+Directory       ${HOMES}/data/pfm_328ti64kx144_v1a0/workarea/snguyen/tmsim/run_spectre/SPEEDREAD_PROG_TC
+JobClass        normal
+Command         spectre -64 +mt=8 ++aps=liberal TT_1.10_3.00_25_1.225.sp -outdir ./output/TT_1.10_3.00_25_1.225 -raw ./output/TT_1.10_3.00_25_1.225 =log ./output/TT_1.10_3.00_25_1.225.log > /home/data/rtda/vnc_logs/snguyen/20240701/142133.28054.668258fd-61c2-1c2a-78f28-203431-03e273537373831
+Resources       linux64 RAM/2000 CORES/1 SLOTS/1 SlaveList:batch_s
+Submitted from  vndc-cad-svr14
+Submitted at    Mon Jul 01 14:26:16 +07 2024
+Priorities      schedule=normal execution=low
+PlacementPolicy fastest,spread
+Status          Running
+   Grabbed      Priority:normal#1 User:snguyen#1 Group:time_users#1 
+   Host         vndc-cad-svr18 
+   Tasker       vndc-cad-svr18  
+   QueueTime    0s 
+   Duration     3d02h 
+   AutoKill     -1s
+Job 051450272 is Running
+
