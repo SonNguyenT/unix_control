@@ -14,8 +14,8 @@ tdelay : 20
 cd : /home/users/snguyen/test
 
 # vnc:
-vnc_list : job
-vnc_info : 051450272 
+#vnc_list : job
+#vnc_info : 051450272 
 
 
 
